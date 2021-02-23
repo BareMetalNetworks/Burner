@@ -15,6 +15,7 @@ Basic agency style rails app
 
 2. add the following to config/webpack/environment.js
 
+```
 	const webpack = require('webpack')
 	environment.plugins.prepend('Provide',
   		new webpack.ProvidePlugin({
@@ -22,7 +23,7 @@ Basic agency style rails app
     	jQuery: 'jquery/src/jquery'
   	})
 	)
-
+```
 3. Require jquery in application.js
 
 require('jquery')
