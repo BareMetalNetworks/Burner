@@ -1,5 +1,6 @@
 # Burner v1.0.0
-Template rails app for small service based companies.
+Template rails app for small service based companies. Intended to be used
+as a starting point for creating new webapps for small businesses.
 
 ## Installation
 
