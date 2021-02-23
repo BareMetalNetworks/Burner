@@ -26,4 +26,30 @@ Basic agency style rails app
 ```
 3. Require jquery in application.js
 
+```
 require('jquery')
+```
+
+### Install Bootstrap
+
+1. add bootstrap to Gemfile
+
+2. Run bundle install
+
+3. Add bootstrap to assets/stylesheets/application.css
+
+```
+ @import "bootstrap";
+
+```
+
+4. Add bootstrap to application.js
+
+```
+//= require jquery3
+//= require jquery_ujs
+//= require popper
+//= bootstrap-sprockets
+//= require tree .
+
+```
