@@ -1,5 +1,5 @@
-# Burner
-Basic agency style rails app
+# Burner v1.0.0
+Template rails app for small service based companies.
 
 ## Installation
 
@@ -40,7 +40,6 @@ require('jquery')
 
 ```
  @import "bootstrap";
-
 ```
 
 4. Add bootstrap to application.js
